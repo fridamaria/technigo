@@ -1,0 +1,115 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+header {
+  background-image: url("./images/andy-holmes-rCbdp8VCYhQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+header a {
+  color: white;
+  border: white solid;
+  border-radius: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.icon {
+  margin: 30px;
+}
+
+.icon img {
+  width: 150px;
+}
+
+.useful-seo-links {
+  background-color: #d4c5f1;
+}
+
+.seo-links {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.link {
+  color: black;
+  border: black solid;
+  border-radius: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px;
+  display: inline-block;
+  width: 20%;
+}
+
+section a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-image: url("./Images/andy-holmes-rCbdp8VCYhQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7px 0;
+}
+
+footer a {
+  font-weight: 500;
+  font-size: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0px;
+  display: inline-block;
+  color: white;
+}
